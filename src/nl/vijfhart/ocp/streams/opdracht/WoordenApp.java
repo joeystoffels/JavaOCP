@@ -1,5 +1,10 @@
 package nl.vijfhart.ocp.streams.opdracht;
 
+/*
+Maak een applicatie WoordenApp, die alle woorden die worden meegegeven met komma’s gescheiden op het scherm toont.
+Maak daarbij gebruik van collect() en joining(). Geef de woorden gesorteerd weer op volgorde van lengte, en daarbinnen op alfabetische volgorde.
+ */
+
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.stream.Collectors;

@@ -1,5 +1,14 @@
 package nl.vijfhart.ocp.date_time_api.opdracht;
 
+/*
+Een vliegtuig vetrekt op 29 oktober 2016 om half 11 ’s ochtends vanaf Schiphol en komt 8 uur en 30 minuten later aan in New York. Hoe laat is het daar dan?
+
+Tips:
+Maak gebruik van de method withZoneSameInstant() van ZonedDateTime om een moment op Schiphol te vertalen naar hetzelfde moment in New York, en bereken daarna de aankomsttijd.
+Het ZoneId van New York is America/New_York, van Amsterdam is dat Europe/Amsterdam.
+(Optioneel) Een week later vertrekt een ander vliegtuig ook om half 11 ’s ochtends vanuit New York. Hoe laat komt dit vliegtuig aan in Schiphol?
+ */
+
 import java.time.Duration;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;

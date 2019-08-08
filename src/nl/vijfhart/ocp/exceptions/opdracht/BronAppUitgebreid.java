@@ -1,5 +1,14 @@
 package nl.vijfhart.ocp.exceptions.opdracht;
 
+/*
+Breid vorige opgave uit. Zorg ervoor dat open() en close() een IOException opleveren,
+en dat bij het doorlopen van de stream bij het openen de IOException wordt omgezet in een RuntimeException.
+
+Tips:
+Gebruik een nieuwe method in BronApp die de IOException bij het openen van een bron afvangt en verpakt in een RuntimeException.
+Zet het doorlopen van de stream in een exception handler met een multicatch die IOException en RuntimeException afvangt
+ */
+
 import java.io.IOException;
 import java.util.stream.Stream;
 

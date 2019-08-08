@@ -1,5 +1,16 @@
 package nl.vijfhart.ocp.java_concurrency.opdracht;
 
+/*
+Maak een multi-threaded applicatie die 10 random int getallen genereert.
+De applicatie houdt bij wat de hoogste en de laagste waarde is, en stopt de gegenereerde getallen in een list.
+Toon na afloop de inhoud van de list, en de hoogste en laagste waarde.
+
+Tips:
+Maak voor de hoogste en laagste waarde gebruik van twee AtomicInteger objecten, en gebruik
+daarin de nieuwe Java 8 method accumulateAndGet() met een lambda expressie.
+Gebruik een concurrent collectie voor de lijst.
+ */
+
 import java.util.Random;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.ExecutorService;

@@ -1,5 +1,20 @@
 package nl.vijfhart.ocp.advanced_class_design.opdracht;
 
+/*
+Maak een enum Operator in de package enums met de namen PLUS, KEER, MIN en GEDEELD_DOOR.
+Een Operator heeft een String naam (+, x, - of /), en een BinaryOperator<Double>  bo die aangeeft wat de operator doet.
+
+Maak ook een class OperatorTest, waarin de enum Operator wordt gebruikt in een method static void bereken(double a, Operator o, double b).
+Als in de main() method de volgende aanroep staat:
+
+bereken (4, PLUS, 5);
+
+geeft dat de volgende uitvoer:
+4.0 + 5.0 = 9.0
+
+Tip: maak gebruik van een static import in OperatorTest
+*/
+
 import java.util.function.BinaryOperator;
 
 class OperatorTest {

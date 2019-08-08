@@ -1,5 +1,13 @@
 package nl.vijfhart.ocp.java_concurrency.opdracht;
 
+/*
+Maak een parallel uitgevoerde applicatie in drie versies die 10 keer het gooien met een dobbelsteen simuleert.
+De applicatie toont elke keer het aantal gegooide ogen, en geeft na afloop de melding “einde dobbelspel”.
+Maak Dobbelspel1 met handmatig gestarte threads
+Maak Dobbelspel2 met een ExecutorService die Callables start met submit()
+(optioneel) Maak Dobbelspel3 met een ExecutorService die Callables start met behulp van invokeAll()
+ */
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;

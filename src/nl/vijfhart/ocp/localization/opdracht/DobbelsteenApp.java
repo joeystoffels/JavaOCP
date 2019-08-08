@@ -1,5 +1,11 @@
 package nl.vijfhart.ocp.localization.opdracht;
 
+/*
+Maak een applicatie Dobbelsteen die tien keer met een dobbelsteen gooit.
+Geef elke keer het gegooide aantal ogen in de opgegeven taal (bijvoorbeeld Nederlands of Engels).
+Maak daarbij gebruik van een method ints() van java.util.Random.
+ */
+
 import java.util.Random;
 import java.util.ResourceBundle;
 

@@ -1,5 +1,10 @@
 package nl.vijfhart.ocp.java_clazz_design.opdracht;
 
+/*
+Een Lijn heeft twee punten. Punt heeft voor de x- en y- coördinaten getters en setters. Lijn zelf is immutable gemaakt (zie class_design\opdrachten\Lijn.java):
+Zorg ervoor dat Lijn een singleton wordt. Kies zelf voor één van de strategieën.
+*/
+
 import nl.vijfhart.ocp.java_clazz_design.uitwerking.Lijn;
 import nl.vijfhart.ocp.java_clazz_design.uitwerking.Punt;
 

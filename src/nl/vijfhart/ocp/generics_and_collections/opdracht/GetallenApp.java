@@ -1,5 +1,12 @@
 package nl.vijfhart.ocp.generics_and_collections.opdracht;
 
+/*
+Maak een applicatie GetallenApp en vul daarin een List met de getallen 1 t/m 10.
+Gebruik daarna de method removeIf() van Collection om de even getallen te verwijderen.
+Gebruik vervolgens replaceAll() van List om de overgebleven getallen te verdubbelen.
+Toon na afloop alle waarden met forEach().
+ */
+
 import java.util.ArrayList;
 import java.util.List;
 
